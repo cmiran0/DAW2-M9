@@ -2,22 +2,18 @@
     margin: 0px;
     padding: 0px;
  }
-
+/*centrado respecto al elemento padre*/
 .container {
     width: 800px;
-    /*para centrar el contenido dentro del container*/
     margin: auto;
     font-family: Text, sans-serif;
     max-width: 800px;
 }
-
+/**/
 header {
     display: flex;
 }
 
-body{
-    padding: 1rem;
-}
 
 img{
     max-width: 100%;
@@ -27,11 +23,14 @@ img{
     flex: 1;
     margin: auto;
 }
-/*TITULO*/
 .title {
     flex: 4;
     text-align: right;
     text-transform: uppercase;
+}
+
+body{
+    padding: 1rem;
 }
 
 .title > h1{
@@ -39,7 +38,6 @@ img{
     font-size: 2.5rem;
     color: #bcbbbb;
     padding-top: 1.5rem;
-    padding-top: 0.5rem;
 }
 
 .title > h3{
