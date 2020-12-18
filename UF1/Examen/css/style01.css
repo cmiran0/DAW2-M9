@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Main title", sans-serif;
+}
+
+#antiguo{
+    text-decoration: line-through;
+}
+
+.main {
+    padding: 20px;
+    float: left;
+    width: 25%;
+    font-family: "Main title", sans-serif;
+    text-align: center;
+}
+
+
+@media (min-width: 1025px) and (max-width: 3278px) {
+    .main {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        width: 50%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .main {
+        width: 100%;
+    }
+
+}
+
+
+@font-face {
+    font-family: "Main title";
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Text;
+    src: url(../fonts/Lato-Light.ttf) format("truetype");
+}
+
+
